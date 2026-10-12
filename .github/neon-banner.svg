@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-label="COGNITIVE-FRICTION — no promises without proof · evidence for every agent claim">
+<defs>
+<linearGradient id="e" x1="0" x2="1"><stop offset="0" stop-color="#ff3ea5"/><stop offset=".5" stop-color="#b48cff"/><stop offset="1" stop-color="#2ed3ff"/></linearGradient>
+<pattern id="sc" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".045"/></pattern>
+<clipPath id="c"><rect x="2" y="2" width="996" height="216" rx="13"/></clipPath>
+</defs>
+<style>
+.big{font:900 64px 'Arial Black',Impact,'Helvetica Neue',sans-serif;letter-spacing:3px}
+.p{fill:#ff3ea5;animation:jp 2.4s steps(1) infinite}.q{fill:#2ed3ff;animation:jq 3s steps(1) infinite}.k{fill:#f4f4f8;animation:jk 3.8s steps(1) infinite}
+@keyframes jp{0%,100%{transform:translate(-4px,0)}30%{transform:translate(-11px,2px)}33%{transform:translate(-4px,0)}70%{transform:translate(5px,-2px)}73%{transform:translate(-4px,0)}}
+@keyframes jq{0%,100%{transform:translate(4px,0)}45%{transform:translate(12px,-2px)}48%{transform:translate(4px,0)}85%{transform:translate(-6px,2px)}88%{transform:translate(4px,0)}}
+@keyframes jk{0%,91%,100%{clip-path:inset(0 0 0 0);transform:none}92%{clip-path:inset(40% 0 35% 0);transform:translateX(14px)}94%{clip-path:inset(10% 0 70% 0);transform:translateX(-12px)}96%{clip-path:inset(0 0 0 0);transform:none}}
+.tag{font:16px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#9a9eaa;letter-spacing:1px}
+.chip{font:700 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px;fill:#b48cff}
+.sw{animation:sw 4s linear infinite}@keyframes sw{from{transform:translateX(-260px)}to{transform:translateX(1260px)}}
+.drop{animation:dr 5s ease-in-out infinite;transform-origin:930px 0}@keyframes dr{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(34px) rotate(4deg)}}
+.live{animation:lv 1.2s ease-in-out infinite}@keyframes lv{50%{opacity:.2}}
+.bar{opacity:0;animation:bar 5s steps(1) infinite}@keyframes bar{0%,88%,100%{opacity:0;transform:translateY(0)}89%{opacity:.8}92%{opacity:.8;transform:translateY(40px)}94%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="998" height="218" rx="14" fill="#0d0d12" stroke="url(#e)" stroke-width="2"/>
+<g clip-path="url(#c)">
+<rect class="sw" x="0" y="0" width="200" height="220" fill="url(#e)" opacity=".06"/>
+<rect class="bar" x="0" y="70" width="1000" height="5" fill="#2ed3ff"/>
+</g>
+<circle class="live" cx="48" cy="46" r="6" fill="#b48cff"/>
+<text class="chip" x="64" y="50">AGENT OPS</text>
+<g>
+<text class="big p" x="40" y="128" opacity=".85" textLength="820" lengthAdjust="spacingAndGlyphs">COGNITIVE-FRICTION</text>
+<text class="big q" x="40" y="128" opacity=".85" textLength="820" lengthAdjust="spacingAndGlyphs">COGNITIVE-FRICTION</text>
+<text class="big k" x="40" y="128" textLength="820" lengthAdjust="spacingAndGlyphs">COGNITIVE-FRICTION</text>
+</g>
+<text class="tag" x="40" y="174">no promises without proof · evidence for every agent claim</text>
+<g class="drop">
+<line x1="930" y1="0" x2="930" y2="48" stroke="#8b8f9a" stroke-width="1.2"/>
+<g transform="translate(930 60)">
+<g stroke="#b48cff" stroke-width="2" fill="none" stroke-linecap="round"><path d="M-6-3l-12-9-6-10M-6 1l-16-3-8-8M-6 4l-15 6-7 9M-5 7l-10 12-3 10M6-3l12-9 6-10M6 1l16-3 8-8M6 4l15 6 7 9M5 7l10 12 3 10"/></g>
+<ellipse cx="0" cy="2" rx="8" ry="11" fill="#14141c" stroke="#f4f4f8" stroke-width="2"/>
+<circle cx="-3" cy="4" r="1.6" fill="#b48cff"/><circle cx="3" cy="4" r="1.6" fill="#b48cff"/>
+</g>
+</g>
+<rect x="2" y="2" width="996" height="216" rx="13" fill="url(#sc)"/>
+</svg>

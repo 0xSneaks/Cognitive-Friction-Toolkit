@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/neon-banner.svg" alt="COGNITIVE-FRICTION" width="100%">
+</p>
+
 # Cognitive-Friction Toolkit
 
 **No Promises Without Proof.**
